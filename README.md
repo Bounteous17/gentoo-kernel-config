@@ -22,6 +22,8 @@ This current file correspond to my <b>working</b> setup using <b><i>Gentoo Linux
 
 REASONS:
 
+<b>21:29/2018-03-19</b> -> <i>(Working)</i>, still using last kernel commit, KVM (not guest) support added (read commit for info)
+
 <b>10:48/2018-03-17</b> -> <i>(Working)</i>, gentoo-sources 4.4.87-r1 and 4.9.76-r1 still not recognizing my graphic card and generating random kernel panics when using ALSA without pulseaudio. Solution, copied oldconfig from 4.9.76-r1 and compiled it from official kernel.org using 4.14.27 sources.
 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/log/?h=v4.14.27
 
